@@ -1,19 +1,177 @@
 {
-  "posts": [
+  "books": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Novel",
+      "release_year":2019,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Math",
+      "release_year":2020,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    ,
+    {
+      "id": 3,
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Novel",
+      "release_year":2021,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
+    }
+    ,
+    {
+      "id": 4,
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Science",
+      "release_year":2022,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
+    },
+    {
+      "id": 5,
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Science",
+      "release_year":2019,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
+    },
+    {
+      "id": 6,
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Science",
+      "release_year":2020,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
+    },
+    {
+      "id": 7,
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Science",
+      "release_year":2020,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
+    },
+    {
+      "id": 8,
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Science",
+      "release_year":2020,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
+    },
+    {
+      "id": 9,
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Science",
+      "release_year":2020,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
+    },
+    {
+      "id": 10,
+      "author": "",
+      "no_of_chapters":6,
+      "cover_photo":"",
+      "book_name":"full stack",
+  
+      "category":"Science",
+      "release_year":2020,
+      "chapters":[
+        {"name":"HTML","pages":25},
+        {"name":"CSS","pages":20}
+
+      ]
+
+
+    }
+  ]
+ 
 }
