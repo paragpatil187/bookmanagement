@@ -24,7 +24,7 @@ const FilterSort = () => {
   };
   useEffect(() => {
     if(category){
-      setSearchParams({category:category})
+      setSearchParams({ctgry:category})
 
     }
   
@@ -38,10 +38,14 @@ const FilterSort = () => {
   }
   useEffect(()=>{
     if(sortBy){
-      searchParams.getAll("category")
-      searchParams({sortBy})
+      const params = {
+      searchParams.getAll("category"),
+       sortBy,
+      }
+      setSearchParams(params)
     }
   },[sortBy,setSearchParams])
+  console.log(searchParams)
   return (
     <>
       <div>Filter</div>
@@ -63,8 +67,8 @@ const FilterSort = () => {
       </div>
       <h3>Sort</h3>
       <div>
-        <input type="radio" value="asc" name="sortBy" defaultChecked={sortBy==="asc"}/>Ascending
-        <input type ="radio" value="desc" name="sortBy" defaultChecked={sortBy==="desc"}/>Descending
+        <input type="radio" value="asc" name="sortBy" defaultChecked={sortBy === "asc"}/>Ascending
+        <input type ="radio" value="desc" name="sortBy" defaultChecked={sortBy ==="desc"}/>Descending
 
       </div>
 
