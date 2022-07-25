@@ -39,7 +39,7 @@ const FilterSort = () => {
   useEffect(()=>{
     if(sortBy){
       const params = {
-      searchParams.getAll("category"),
+      ccategory: searchParams.getAll("category"),
        sortBy,
       }
       setSearchParams(params)
